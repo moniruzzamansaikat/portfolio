@@ -1,0 +1,5 @@
+.project-details .btn {
+  background-color: white !important;
+  color: var(--primary-color);
+  font-weight: 500;
+}

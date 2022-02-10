@@ -1,0 +1,72 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #59a96a;
+  --secondary-color: rgb(250, 234, 91);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+.btn {
+  box-shadow: 0 0 0 !important;
+  padding: 6px 1rem;
+  background-color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+  color: rgb(194, 194, 194);
+}
+
+.btn:hover {
+  border-color: var(--primary-color) !important;
+  opacity: 0.8;
+}
+
+.btn:focus {
+  background-color: var(--primary-color);
+}
+
+section {
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  box-shadow: 0 0 0 !important;
+  border: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #afafaf;
+  padding-left: 0;
+}
+
+.form-control:focus {
+  border-color: #afafaf;
+}
+
+label {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+section p {
+  font-size: 1.5rem;
+}
