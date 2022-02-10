@@ -85,6 +85,21 @@ const useProjectsHook = () => {
         '/img/projects/bit-buzz/img1.jpg',
       ],
     },
+    {
+      title: 'Newz Website',
+      category: 'Frontend',
+      featured: true,
+      description:
+        `This is simple responsive website built with svelte. I started building this app because the previous day (when I built this:) watched a video and I figured out that svelte is amazing 🤟🏼. That's why I built this app. With css grid and custom navbar[NO CSS FRAMEWORK👀]. I have used https://inshortsapi.vercel.app/news?{possibleCategory} for fetching news.`,
+      used: [
+        'html', 'css', 'svelte',
+      ],
+      live: 'https://svelte-news-app.netlify.app/',
+      code: 'https://github.com/moniruzzamansaikat/svelte-news-app',
+      images: [
+        '/img/projects/newz-website/img1.jpg',
+      ],
+    },
 
   ]);
 

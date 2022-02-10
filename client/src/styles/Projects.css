@@ -44,3 +44,10 @@
   background-color: var(--primary-color) !important;
   opacity: 0.8;
 }
+
+@media (max-width: 400px) {
+  .projects-compo .btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}

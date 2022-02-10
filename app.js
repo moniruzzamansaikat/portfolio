@@ -17,5 +17,5 @@ app.get('*', (req, res) => {
 const PORT = process.env.PORT || 5152;
 
 app.listen(PORT, () => {
-    console.log('server is running 🔥🔥')
+    console.log(`server is running on port ${PORT} 🔥🔥`)
 })
