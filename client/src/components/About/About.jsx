@@ -14,7 +14,7 @@ function About() {
           <div className="row">
             <div className="col-md-5 content" data-aos="fade-right">
               <h1>
-                Saikat is a <span>fullstack</span> web developer.
+                Hey I'm a <span>fullstack</span> web developer.
               </h1>
               <p>
                 I am a fullstack web developer with a passion for building

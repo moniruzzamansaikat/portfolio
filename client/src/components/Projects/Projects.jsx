@@ -10,7 +10,7 @@ function Projects({ featured }) {
         <>
           <h2 className="subtitle">Projects</h2>
           <p>
-            Here are some of favourites projects I have wored on. You can see a
+            Here are some of favourites projects I have worked on. You can see a
             huge list of projects I have worked on{' '}
             <Link to="/projects">here</Link>
           </p>

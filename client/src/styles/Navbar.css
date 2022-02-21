@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /* Navbar styles */
 .navbar {
   top: 0;
@@ -43,6 +45,7 @@
   font-size: 2rem;
   font-weight: bolder;
   letter-spacing: 0px;
+  font-family: 'Lobster', cursive;
 }
 
 .navbar.scrolled .navbar-brand {
