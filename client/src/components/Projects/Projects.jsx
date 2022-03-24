@@ -9,14 +9,14 @@ function Projects({ featured }) {
       {featured && (
         <>
           <h2 className="subtitle">Projects</h2>
-          <p>
+          <p className="text-center">
             Here are some of favourites projects I have worked on. You can see a
-            huge list of projects I have worked on{' '}
-            <Link to="/projects">here</Link>
+            huge list of projects I have worked on
+            <Link to="/projects"> here.</Link>
           </p>
         </>
       )}
-      <ProjectsList />
+      <ProjectsList featured={featured} />
     </section>
   );
 }

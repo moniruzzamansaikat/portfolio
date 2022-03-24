@@ -43,6 +43,19 @@ const useProjectsHook = () => {
       ],
     },
     {
+      title: 'Restor Buzz',
+      category: 'Frontend',
+      featured: true,
+      description:
+        'This is a one page website that is designed to help users find the best resturant in their area. It is just a simple one page animated and responsive website.',
+      used: ['html', 'css', 'bootstrap', 'javascript', 'github page'],
+      code: 'http://github.com/moniruzzamansaikat/restor-buzz-static',
+      live: 'https://moniruzzamansaikat.github.io/restor-buzz-static/',
+      images: [
+        '/img/projects/restorbuzz/img1.png',
+      ],
+    },
+    {
       title: 'Darlence Cox',
       category: 'Frontend',
       featured: true,
@@ -88,7 +101,7 @@ const useProjectsHook = () => {
     {
       title: 'Newz Website',
       category: 'Frontend',
-      featured: true,
+      featured: false,
       description:
         `This is simple responsive website built with svelte. I started building this app because the previous day (when I built this:) watched a video and I figured out that svelte is amazing 🤟🏼. That's why I built this app. With css grid and custom navbar[NO CSS FRAMEWORK👀]. I have used https://inshortsapi.vercel.app/news?{possibleCategory} for fetching news.`,
       used: [
@@ -107,7 +120,9 @@ const useProjectsHook = () => {
     return projects.find((project) => project.title === title);
   };
 
-  return { projects, getProjectByTitle };
+  const featuredProjects = projects.filter((project) => project.featured);
+
+  return { projects, featuredProjects, getProjectByTitle };
 };
 
 export default useProjectsHook;

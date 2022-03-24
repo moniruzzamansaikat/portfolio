@@ -2,13 +2,18 @@ import React from 'react';
 import useProjects from '../../hooks/useProjects';
 import ProjectCard from './ProjectCard';
 
-function ProjectsList() {
-  const { projects } = useProjects();
+function ProjectsList({ featured }) {
+  const { projects, featuredProjects } = useProjects();
+
+  const items = featured ? featuredProjects : projects;
 
   return (
     <div className="row">
-      {projects.map((project) => (
-        <div className="col-md-6 col-lg-4 mt-4" key={project.title}>
+      {items.map((project) => (
+        <div
+          className="col-md-6 col-lg-4 my-4 pe-5 project-grid"
+          key={project.title}
+        >
           <ProjectCard project={project} />
         </div>
       ))}

@@ -56,7 +56,7 @@ section {
   box-shadow: 0 0 0 !important;
   border: 0;
   background: #ffffff;
-  border-bottom: 1px solid #afafaf;
+  border-bottom: solid #afafaf;
   padding-left: 0;
 }
 
@@ -72,4 +72,29 @@ label {
 
 section p {
   font-size: 1.5rem;
+}
+
+.subtitle {
+  padding-bottom: 8px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.subtitle::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary-color);
+  left: 0;
+  bottom: -3px;
+  border-radius: 30px;
 }

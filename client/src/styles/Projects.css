@@ -27,13 +27,14 @@
 
 .projects-compo .btn {
   padding: 6px 1rem;
-  border: 0;
-  margin-right: 10px;
-  border-radius: 3px;
+  margin-right: 4px;
+  border-radius: 0;
+  font-size: 14px;
   font-weight: 400;
   color: rgb(71, 71, 71);
-  background-color: transparent !important;
-  border: 1px solid var(--primary-color) !important;
+  border: 0 !important;
+  background-color: #f0f0f0 !important;
+  /* border: 1px solid var(--primary-color) !important; */
 }
 
 .projects-compo .btn span {
@@ -43,6 +44,12 @@
 .projects-compo .btn:hover {
   background-color: var(--primary-color) !important;
   opacity: 0.8;
+}
+
+@media (max-width: 520px) {
+  .project-grid {
+    padding-right: 12px !important;
+  }
 }
 
 @media (max-width: 400px) {
