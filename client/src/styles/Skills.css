@@ -15,36 +15,41 @@
   cursor: pointer;
   user-select: none;
   transition: 0.2s ease;
+  color: #eeeeee;
 }
 
 .skills-compo .categories li:hover {
-  background: var(--primary-color);
+  background: #2d4263;
 }
 
 .skills-compo .categories li.active {
-  background: var(--primary-color);
+  background: #2d4263;
 }
 
-.skills-compo .row {
-  margin-top: 3rem;
+.skills-compo .skills {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  );
+  grid-gap: 10px;
 }
 
 .skills-compo .skill-item {
   cursor: pointer;
+  padding: 10px;
+  background-color: #2d4263;
+  max-width: 150px;
 }
 
 .skills-compo .skill-item p {
-  opacity: 0;
   font-weight: 600;
-  color: var(--primary-color);
+  color: #f0f0f0;
   font-size: 1rem;
   transition: 0.3s ease-in-out;
 }
 
-.skills-compo .skill-item:hover p {
-  opacity: 1;
-}
-
 .skills-compo img {
   width: 6rem;
+  filter: invert(100%);
 }

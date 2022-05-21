@@ -1,7 +1,7 @@
 .input {
   padding: 6px 10px;
   outline: 0;
-  border: 0;
+  border: 2px solid;
   width: 100%;
   font-size: 1.2rem;
   background-color: rgba(0, 0, 0, 0.336);
@@ -15,4 +15,14 @@
 
 .input:focus {
   border-color: var(--primary-color);
+}
+
+.input_box span {
+  color: var(--clr-red);
+  font-weight: 800;
+}
+
+.input_box.error input,
+.input_box.error textarea {
+  border-color: var(--clr-red);
 }

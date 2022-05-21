@@ -8,11 +8,11 @@ function Head({ title = 'Saikat Saikim' }) {
       <meta name="author" content="Moniruzzaman Saikat" />
       <meta
         name="keywords"
-        content="web designer, freelance webdesigner, saikat, saikim, moniruzzaman saikat"
+        content="web designer, freelance webdesigner, saikat, saikim, moniruzzaman saikat, freelance web programmer, freelance developer"
       />
       <meta
         name="description"
-        content="Saikat is fullstack web developer. He works on modern web technologies in a best way."
+        content="Moniruzzaman Saikat is full stack freelance web developer. Feel free to contact me for any web related projects."
       />
     </Helmet>
   );

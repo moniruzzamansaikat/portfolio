@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 /* Navbar styles */
 .navbar {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: blue;
   z-index: 99999;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #2d4263 !important;
 }
 
 .navbar .navbar-toggler {
@@ -25,32 +27,34 @@
 .navbar .nav-link {
   font-size: 1.1rem;
   text-transform: uppercase;
-  font-weight: 400;
+  color: #f0f0f0 !important;
 }
 
 .navbar.scrolled .nav-link.active {
-  color: var(--primary-color) !important;
+  color: var(--primary-color);
 }
 
 .navbar.scrolled {
   z-index: 10000;
-  background: rgb(255, 255, 255) !important;
+  background-color: #04293a !important;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.scrolled * {
-  color: #000 !important;
+  color: #f0f0f0 !important;
 }
 
 .navbar .navbar-brand {
   font-size: 2rem;
   font-weight: bolder;
   letter-spacing: 0px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto condensed', cursive;
+  text-transform: uppercase;
+  color: #f0f0f0 !important;
 }
 
 .navbar.scrolled .navbar-brand {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .navbar .navbar-brand span {
@@ -66,6 +70,7 @@
     font-size: 1.5rem;
     font-weight: bolder;
     letter-spacing: 0px;
+    font-family: 'Fredoka One', cursive;
   }
 
   .navbar.scrolled .nav-link.active {

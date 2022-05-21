@@ -1,0 +1,12 @@
+.blog_item h2 {
+  font-size: 2rem;
+}
+
+.blog_item a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.blog_item p {
+  font-size: 1.2rem;
+}

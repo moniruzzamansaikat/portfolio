@@ -1,0 +1,25 @@
+.alert {
+  margin-top: 10px;
+  text-transform: capitalize;
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert.success {
+  background-color: var(--primary-color);
+}
+
+.alert.danger {
+  background-color: var(--clr-red);
+}
+
+.alert .close {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.alert .close:hover {
+  opacity: 0.8;
+}

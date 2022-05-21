@@ -4,27 +4,33 @@ html,
 body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  background-color: #082032;
+}
+
+body * {
+  color: #f0f0f0;
 }
 
 :root {
-  --primary-color: #59a96a;
+  --primary-color: #03c4a1;
   --secondary-color: rgb(250, 234, 91);
+  --clr-red: #f24a72;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 10px;
+  background: #eeeeee;
 }
 
 .btn {
@@ -34,11 +40,9 @@ body {
   border: 2px solid var(--primary-color) !important;
   font-weight: 600;
   transition: 0.2s ease-in-out;
-  color: rgb(194, 194, 194);
 }
 
 .btn:hover {
-  border-color: var(--primary-color) !important;
   opacity: 0.8;
 }
 
@@ -84,7 +88,7 @@ section p {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  font-weight: 400;
+  font-weight: 700;
   color: var(--primary-color);
 }
 
@@ -97,4 +101,13 @@ section p {
   left: 0;
   bottom: -3px;
   border-radius: 30px;
+}
+
+/* hide statcounter  */
+.statcounter {
+  display: none;
+}
+
+a[href*='statcounter.com'] {
+  display: none !important;
 }

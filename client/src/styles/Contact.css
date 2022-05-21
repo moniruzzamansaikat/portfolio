@@ -1,61 +1,7 @@
 .contact-compo {
   margin-bottom: 0;
   margin-top: 3rem;
-  background-color: #438351ea;
+  background-color: #3f3f4ac8;
   background-size: cover;
   color: #f0f0f0;
-}
-
-.contact-compo .links {
-  background-color: rgba(0, 0, 0, 0.384);
-  margin-top: 2rem;
-  padding-top: 1px;
-  padding-bottom: 6px;
-  width: fit-content;
-  margin-left: 50%;
-  backdrop-filter: blur(2px);
-  transform: translateX(-50%);
-  transition: 0.3s ease;
-}
-
-.contact-compo .btn {
-  background-color: white !important;
-  border: white !important;
-  color: var(--primary-color);
-}
-
-.contact-compo .links:hover {
-  transform: translateX(-50%) skew(-10deg);
-}
-
-.contact-compo ul {
-  padding: 0;
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  margin: 1rem 0;
-}
-
-.contact-compo ul li {
-  margin: 0 2rem;
-}
-
-.contact-compo ul li a {
-  font-size: 2.4rem;
-  transition: 0.2s ease;
-  color: var(--primary-color);
-}
-
-.contact-compo ul li a:hover {
-  color: var(--primary-color);
-}
-
-@media (max-width: 768px) {
-  .contact-compo ul li {
-    margin: 0 1rem;
-  }
-
-  .contact-compo ul li a {
-    font-size: 2rem;
-  }
 }

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.about_card {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 1.3rem;
+  background-color: #2d4263;
+  color: #f0f0f0;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.about_card h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: #f0f0f0;
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.about_card p {
+  font-size: 15px !important;
+  font-weight: 400;
+}
+
+.about_card .freelance_card a {
+  text-decoration: none;
+  color: #111;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 1rem 0;
+  transition: 0.3s ease-in-out;
+}
+
+.about_card .freelance_card a:hover {
+  opacity: 0.7;
+}
+
+.about_card * {
+  transform: rotate(0deg) !important;
+}
+
+.about_card ul {
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.about_card ul li a {
+  font-size: 2rem;
+  transition: 0.2s ease;
+}
+
+.about_card ul li a:hover * {
+  fill: var(--primary-color) !important;
+}
+
+@media (max-width: 768px) {
+  .about_card {
+    margin-top: 3rem;
+  }
+
+  .about_card ul li {
+    margin: 0 1rem;
+  }
+
+  .about_card ul li a {
+    font-size: 1.3rem;
+  }
+}
